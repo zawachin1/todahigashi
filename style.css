@@ -1,0 +1,120 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  height: 40px;/* 高さ */
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+h1 {
+  color: #000000;/* フォントの色 */
+  font-size: 30px;/* フォントの大きさ */
+  font-family: lobster;/* フォントの種類 */
+  margin:0;
+}
+
+.top{
+  height:auto;
+}
+/* h1見出し */
+
+.video-background {
+  width: 96%;
+  height: auto;
+  z-index: -1;
+  margin:0% 2%;
+  display: grid;
+  gap:26px;
+  grid-template-columns:repeat(auto-fit,minmax(240px, 1fr));
+}
+
+video {
+  width:100%;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  color: #ffffff;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50x;
+}
+
+.photo {
+  height: auto;
+  padding: 30px;
+  background-image: url(img/cafe.jpg);
+}
+
+.picture{
+  display: grid;
+  gap:26px;
+  grid-template-columns:repeat(auto-fit,minmax(240px, 1fr));
+  margin-top: 3%;
+  margin-bottom: 50px;
+}
+
+.item img{
+  max-width: 100%;
+  height: auto;
+}
+
+.item p {
+  text-align: center;
+  color:white;
+  text-shadow:1px 1px 0 #000000, -1px -1px #000000,
+  -1px 1px 0 #000000, 1px -1px 0#000000,
+  0px 1px 0 #000000,  0-1px 0#000000,
+  -1px 0 0 #000000, 1px 0 0 #000000;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.syoukai{
+  display: grid;
+  gap:26px;
+  grid-template-columns:3fr 1fr;
+  grid-template-columns:minmax(240px);
+  margin-top: 3%;
+  margin-bottom: 50px;
+}
+
+.syoukaiitem p {
+  max-height: 100%;
+  background-image:url(img/supura.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #111111;
+  text-shadow:0.5px 0.5px 0 #ffffff, -0.5px -0.5px #ffffff,
+  -0.5px 0.5px 0 #ffffff, 0.5px -0.5px #ffffff,
+  0px 0.5px 0 #ffffff,  0 -0.5px 0#ffffff,
+  -0.5px 0 0 #ffffff, 0.5px 0 0 #ffffff;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 20px;
+}
+.syoukaiitem img{
+  max-width: 100%;
+  height: auto;
+}
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
