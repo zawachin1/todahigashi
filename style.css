@@ -32,7 +32,7 @@ h1 {
 /* h1見出し */
 
 .video-background {
-  width: 96%;
+  width: 94%;
   height: auto;
   z-index: -1;
   margin:0% 2%;
@@ -58,7 +58,7 @@ video {
 .photo {
   height: auto;
   padding: 30px;
-  background-image: url(img/cafe.jpg);
+  background-image: url(cafe.jpg);
 }
 
 .picture{
@@ -96,7 +96,7 @@ video {
 
 .syoukaiitem p {
   max-height: 100%;
-  background-image:url(img/supura.jpeg);
+  background-image:url(supura.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #111111;
