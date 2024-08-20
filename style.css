@@ -10,21 +10,7 @@ body {
   height: 100%;
   margin: 0;
 }
-/* ===== ヘッダーのスタイル ===== */
-/* ヘッダーの箱 */
-header {
-  height: 30px;/* 高さ */
-  background-color: #ffffff;
-  margin: 0 auto;
-  padding: 0 4%;
-}
 
-h1 {
-  color: #000000;/* フォントの色 */
-  font-size: 30px;/* フォントの大きさ */
-  font-family: lobster;/* フォントの種類 */
-  margin:0;
-}
 
 .top{
   height:auto;
