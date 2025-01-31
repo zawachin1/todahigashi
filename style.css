@@ -28,7 +28,7 @@ h1 {
   width: auto;
   height: auto;
   z-index: -1;
-  margin:2% 4%;
+  margin:3% 5%;
   display: grid;
   gap:26px;
   grid-template-columns:repeat(auto-fit,minmax(240px, 1fr));
