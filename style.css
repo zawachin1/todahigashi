@@ -71,11 +71,11 @@ video {
 .item img{
   max-width: 100%;
   height: auto;
+  border:solid 2px #ccc;
   }
 
 .item img:hover{
-  transform:scale(1.2);
-  transition:0.3s;
+border:solid 2px #203aad;
 }
 
 @keyframes zoomIn {
