@@ -68,16 +68,15 @@ video {
   background-size: cover;
 }
 
-　img:hover {
-  transform:scale(1.2);
-  transition:0.3s;
-}
-
 .item img{
   max-width: 100%;
   height: auto;
   }
 
+.item img:hover{
+  transform:scale(1.2);
+  transition:0.3s;
+}
 
 @keyframes zoomIn {
   0% {
