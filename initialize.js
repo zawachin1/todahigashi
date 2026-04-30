@@ -31,10 +31,6 @@ const dataTables = [
     "label": "コメント機能",
     "value": [
       {
-        "likes": 0,
-        "author": "あ",
-        "content": "あ",
-        "createdAt": "2026/4/30 12:10"
       }
     ]
   }
