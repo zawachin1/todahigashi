@@ -28,14 +28,14 @@ h1 {
   width: auto;
   height: auto;
   z-index: -1;
-  margin:10% 12%;
+  margin:3% 5%;
   display: grid;
   gap:26px;
   grid-template-columns:repeat(auto-fit,minmax(240px, 1fr));
 }
 
 video {
-  width:100%;
+  width:98%;
 }
 
 /* h2見出し */
